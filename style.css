@@ -23,17 +23,35 @@ header {
 .header__inner {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .logo__img {
-	margin-top: 4%;
+	margin-top: 15%;
 	margin-bottom: 2%;
+	margin-left: 50%;
 }
 
 .header__nav {
 	margin-top: 4%;
+	margin-right: 10%;
+}
+
+.nav__header {
+	border: 3px solid #f0b922;
 }
 
 .nav__link {
 	text-decoration: none;
+	font-size: 35px;
+	color: #f0b922;
+	/*margin-left: 30px;*/
+	padding: 3px 20px 3px 20px;
+}
+.nav__link:last-child {
+	/*margin-right: 30px;*/
+}
+.nav__link:hover {
+	background-color: #f0b922;
+	color: black;
 }
