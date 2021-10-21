@@ -1,0 +1,39 @@
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Container */
+.container {
+	width: 100%;
+	max-width: 1285px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	height: 100%;
+	max-height: 230px;
+	background-color: #262626;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo__img {
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+.header__nav {
+	margin-top: 4%;
+}
+
+.nav__link {
+	text-decoration: none;
+}
