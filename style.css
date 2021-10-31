@@ -1,0 +1,154 @@
+body {
+    font-family: 'Cuprum', sans-serif;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Section */
+.first {
+    height: 100vh;
+}
+
+.second {
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #3d3b3b;
+    height: 8vh;
+}
+
+.circle__person {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    border: 3px solid #3d3b3b;
+    margin-top: 20%;
+}
+
+.person {
+    /* display: block; */
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 3%;
+}
+
+.name {
+    margin-top: 35%;
+}
+
+.name__person {
+    font-size: 5em;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 600;
+    color: #3d3b3b;
+}
+
+.name__sub {
+    font-style: italic;
+    color: #626663;
+    font-size: 2em;
+}
+
+/* Block */
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block__left {
+    text-align: end;
+}
+
+.name__person__block {
+    font-size: 90px;
+    font-family: 'Cuprum', sans-serif;
+    color: #3d3b3b;
+    line-height: 0.9;
+}
+.name__sub__block {
+    color: #626663;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.border {
+    display: block;
+    border: 2px solid #626663;
+    height: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Block__right */
+/* Phone */
+.phone {
+    line-height: 1.2;
+    margin-bottom: 20%;
+}
+.tel {
+    font-size: 25px;
+    font-weight: bold;
+}
+.nomer {
+    color: #626663;
+    font-size: 17px;
+}
+
+/* Email */
+.email {
+    line-height: 1.2;
+    margin-bottom: 20%;
+}
+.mail {
+    font-size: 25px;
+    font-weight: bold;
+}
+.pochta {
+    color: #626663;
+    font-size: 17px;
+}
+
+/* Web */
+.web {
+    line-height: 1.2;
+    margin-bottom: 20%;
+}
+.web__sait {
+    font-size: 25px;
+    font-weight: bold;
+}
+.sait {
+    color: #626663;
+    font-size: 17px;
+}
+
+/* Home */
+.home {
+    line-height: 1.2;
+}
+.dom {
+    font-size: 25px;
+    font-weight: bold;
+}
+.street {
+    color: #626663;
+    font-size: 17px;
+}
