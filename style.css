@@ -152,3 +152,30 @@ body {
     color: #626663;
     font-size: 17px;
 }
+
+/* Footer */
+.three {
+    height: 10vh;
+    background-color: #3d3b3b;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.foo__p {
+    color: #fff;
+    line-height: 1.4;
+}
+
+.footer__social {
+    text-align: center;
+    line-height: 1.5;
+}
+.foo__soc__info {
+    color: #fff;
+    font-size: 20px;
+}
